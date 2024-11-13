@@ -14,10 +14,11 @@ I am deeply passionate about:
 - 🔄 **Automation & GitOps**
 - 🚀 **DevOps Practices**
 
-I hold the following certifications:
+I hold the following certifications & Awards:
 - 🎓 **AWS Certified Solution Architect – Professional**
 - 🛠️ **Terraform Associate**
 - 🖥️ **AWS Developer Associate**
+- 🌟 **Rising Star Award - Cloud Engineer**
 - 🌟 **Women Change Maker of the Year**
 
 I strive to help organizations and teams adopt cutting-edge **DevOps** and **Cloud** practices, enabling them to scale and innovate faster. 🌱
