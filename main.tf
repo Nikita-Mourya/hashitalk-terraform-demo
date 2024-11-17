@@ -28,7 +28,7 @@ data "aws_ami" "latest_amazon_linux" {
   }
 
   # Owner of the AMI (Amazon's AWS account ID)
-  owners = ["137112412989"]  # Amazon's AWS account ID for official Amazon Linux 2 AMIs
+  owners = ["412381781387"]  # Amazon's AWS account ID for official Amazon Linux 2 AMIs
 }
 
 

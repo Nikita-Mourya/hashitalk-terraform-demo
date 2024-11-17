@@ -8,7 +8,7 @@ terraform {
   # Backend Configuration for using S3 to store the Terraform state file
   backend "s3" {
     # S3 Bucket name where the state file will be stored
-    bucket = "demokanu"  # Replace with your actual S3 bucket name
+    bucket = "hashitalk-terraform-demo-bucket"  # Replace with your actual S3 bucket name
     key = "state/terraform.tfstate"  # Path to the state file within the bucket
     region = "us-east-1"  # Ensure the region matches where your resources are located
   }
