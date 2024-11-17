@@ -9,21 +9,8 @@ terraform {
   backend "s3" {
     # S3 Bucket name where the state file will be stored
     bucket = "demokanu"  # Replace with your actual S3 bucket name
-
-    # Key (path) for the state file inside the S3 bucket
     key = "state/terraform.tfstate"  # Path to the state file within the bucket
-
-    # AWS Region where the S3 bucket and DynamoDB table are located
     region = "us-east-1"  # Ensure the region matches where your resources are located
-
-    # Enable server-side encryption for the state file to secure the data
-    encrypt = true  # Use encryption to secure the state file
-
-    # Access Control List (ACL) settings for the S3 bucket (set to private)
-    acl = "private"  # Ensures the state file is not publicly accessible
-
-    # DynamoDB table for state locking to prevent concurrent Terraform runs
-    dynamodb_table = "terraform-locks"  # Replace with your DynamoDB table for state locking
   }
 }
 
