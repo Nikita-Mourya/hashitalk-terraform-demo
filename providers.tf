@@ -2,7 +2,6 @@
 # Terraform Block: Defines the required version and provider constraints
 # -------------------------------
 terraform {
-  required_version = "~> 1.5.0"  # Restrict to Terraform 1.5.x for compatibility
 
   required_providers {
     aws = {
